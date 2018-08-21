@@ -6,18 +6,18 @@ Adresse du site internet en production :
 
 Pour visualiser en local, lancez les commandes suivantes :
 
-##1.
+## 1.
 
 ```
 bundle install --without production
 ```
 
-##2.
+## 2.
 
 ```
 rails server
 ```
 
-##3.
+## 3.
 
 Ouvrir le lien suivant dans votre navigateur : http://localhost:3000/
