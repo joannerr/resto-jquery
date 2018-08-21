@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    font-family: Arial;
+}
+
+.wrapper {
+	width: 500px;
+	position: relative;
+	margin: auto;
+}
+
+.slides img {
+	display: none;
+	height: auto;
+	width: 500px;
+}
+
+.slides img.active {
+	display: inline-block;
+}
+
+.previous,.next {
+	position: absolute;
+	top: 50%;
+	font-weight: bold;
+	padding: 10px 10px;
+	font-size: 25px;
+	cursor: pointer;
+	color: #ffffff
+}
+
+.next {
+	right: 0;
+}
+
+.previous:hover,.next:hover {
+	background-color: rgba(255,255,255,0.5);
+}
+
+.dots {
+	width: 5px;
+	height: 5px;
+	display: inline-block;
+	background: gray;
+	padding: 5px;
+	border-radius: 50%;
+}

@@ -1,0 +1,39 @@
+.container{
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.tabs li{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 5px 15px;
+	cursor: pointer;
+	font-family: 'Buda', cursive;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+ul.tabs li.current{
+	background: #D8E8ED;
+	color: #003B4F;
+	font-weight: bold;
+}
+
+.tab-content{
+	display: none;
+	background: #D8E8ED;
+	padding: 15px;
+	font-size: 14px;
+}
+
+.tab-content.current{
+	display: inherit;
+}

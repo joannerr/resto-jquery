@@ -1,0 +1,7 @@
+I"x(function() {
+  this["import"](components / tabs.js);
+
+  this["import"](components / carousel.js);
+
+}).call(this);
+:ET

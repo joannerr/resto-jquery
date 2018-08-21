@@ -1,0 +1,5 @@
+I"P(function() {
+  this["import"](url("components/tabs.js"));
+
+}).call(this);
+:ET
