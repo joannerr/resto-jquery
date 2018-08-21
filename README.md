@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Adresse du site internet en production :
 
-Things you may want to cover:
+### http://mangeungrec.surge.sh/
 
-* Ruby version
+Pour visualiser en local, lancez les commandes suivantes :
 
-* System dependencies
+##1.
 
-* Configuration
+```
+bundle install --without production
+```
 
-* Database creation
+##2.
 
-* Database initialization
+```
+rails server
+```
 
-* How to run the test suite
+##3.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Ouvrir le lien suivant dans votre navigateur : http://localhost:3000/
